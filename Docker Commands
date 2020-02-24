@@ -1,0 +1,385 @@
+	1  version
+    2  docker images
+    3  docker --version
+    4  docker images
+    5  docker pull hello-world
+    6  docker images
+    7  docker run hello-world
+    8  docker stop
+    9  exit
+   10  docker --version
+   11  exit
+   12  ls
+   13  pwd
+   14  date
+   15  scp
+   16  ssh
+   17  ls -lrt
+   18  exit
+   19  docker ps
+   20  exit
+   21  clear
+   22  docker version
+   23  docker image ps
+   24  docker ps
+   25  docker ps image
+   26  docker images
+   27  docker images
+   28  ps aux
+   29  docker run hello-worls
+   30  docker run hello-world
+   31  time
+   32  date
+   33  history
+   34  ls
+   35  ls -l
+   36  pwd
+   37  docker run busybox ls
+   38  ls -lrt
+   39  docker run busybox echo hi there
+   40  docker images
+   41  docker ps
+   42  docker run busybox ping google.com
+   43  docker ps --all
+   44  docker create hello-create
+   45  docker create hello-world
+   46  docker start -a 0e138db78f971f1da9ef8aab8b01fb29731dcc422c89696e82694f2b7a73a074
+   47  docker ps --all
+   48  docker create hello-world
+   49  docker start -a
+   50  docker run busybox echo hi there
+   51  docker ps --all
+   52  docker start 653324e2bd25
+   53  docker ps --all
+   54  docker start -a 653324e2bd25
+   55  docker system prune
+   56  docker ps --all
+   57  docker stop
+   58  docker ps --all
+   59  docker stop c9f6f54f9cf1
+   60  docker ps --all
+   61  docker system prune
+   62  ls -lrt
+   63  clear
+   64  docker ps --all
+   65  docker create busybox echo hi there
+   66  docker start f70cbc2335ca0da9f7ab36e1caaf5b8a94113211ff914f05c0f42454f58a0fe0
+   67  docker logs f70cbc2335ca0da9f7ab36e1caaf5b8a94113211ff914f05c0f42454f58a0fe0
+   68  docker ps
+   69  docker ps --all
+   70  docker start busybox
+   71  docker start busybox echo hello there
+   72  clear
+   73  docker ps
+   74  docker ps --all
+   75  docker start -a f70cbc2335ca
+   76  clear
+   77  docker ps --all
+   78  docker create busybox ping google.com
+   79  docker start -a f845ef52343e5438ac3b508a4a74a36d2c9c1064b2d44c2dcf2be10e8c3ff15e
+   80  docker ps --all
+   81  docker stop f845ef52343e5438ac3b508a4a74a36d2c9c1064b2d44c2dcf2be10e8c3ff15e
+   82  docker ps --all
+   83  clear
+   84  docker run redis
+   85  docker ps
+   86  docker ps -aal
+   87  docker ps -all
+   88  docker ps --all
+   89  docker run -it 3defcad8f7dc  redis-cli
+   90  docker run  redis-cli
+   91  docker create redis-cli
+   92  docker start redis-cli
+   93  docker ps
+   94  redis-cli
+   95  docker run redis-cli
+   96  docker system prune
+   97  clear
+   98  exit
+   99  redis-cli
+  100  docker ps
+  101  docker exec -it 8fa639a77dd4 redis-cli
+  102  ls -lrt
+  103  docker ps
+  104  clear
+  105  docker ps
+  106  docker run busybox
+  107  docker ps
+  108  docker exec -it 8fa639a77dd4 sh
+  109  docker ps
+  110  docker stop  8fa639a77dd4
+  111  docker ps
+  112  exit
+  113  redis-cli
+  114  docker ps
+  115  docker exec -it 4fcf0ffd45bc redis-cli
+  116  docker exec 4fcf0ffd45bc redis-cli
+  117  docker ps
+  118  4fcf0ffd45bc
+  119  clear
+  120  docker ps
+  121  docker exec -i 4fcf0ffd45bc redis-cli
+  122  clear
+  123  docker ps
+  124  docker exec -it 4fcf0ffd45bc sh
+  125  docker ps
+  126  docker exec -it 4fcf0ffd45bc sh
+  127  clear
+  128  docker ps
+  129  docker stop 4fcf0ffd45bc
+  130  docker ps
+  131  docker ps --all
+  132  clear
+  133  docker run -it busybox sh
+  134  clear
+  135  docker ps
+  136  docker ps
+  137  docker ps -all
+  138  docker ps --all
+  139  docker run hello-world
+  140  docker ps --all
+  141  docker start redis-cli
+  142  history
+  143  redis-cli
+  144  docker ps --all
+  145  docker exec -it 2e08b268fe86 redis-cli
+  146  lear
+  147  clear
+  148  docker run redis
+  149  pwd
+  150  code .
+  151   exit
+  152  docker ps --all
+  153  docker ps
+  154  ls
+  155  ls -l
+  156  docker create busybox
+  157  docker run b2aa9cf8f318b093aa18860e2120b7c1aacd00a6549e93b13721cddf393a5f19
+  158  docker start b2aa9cf8f318b093aa18860e2120b7c1aacd00a6549e93b13721cddf393a5f19
+  159  docker ps
+  160  docker run busybox ping google.com
+  161  docker run busybox sh
+  162  docker run -it busybox sh
+  163  docker ps
+  164  docker stop 0ccd5bffcc42
+  165  docker ps --all
+  166  docker ps
+  167  exit
+  168  docker ps
+  169  docker ps --all
+  170  docker system prune
+  171  ls -lrt
+  172  docker ps --all
+  173  cd ../../
+  174  pwd
+  175  ls -lrt
+  176  cd Work/
+  177  ls -lrt
+  178  cd dockerworkspace/
+  179  pwd
+  180  ls -l
+  181  cd redis_image/
+  182  ls -lrt
+  183  docker build .
+  184  docker login
+  185  docker login
+  186  cd ..
+  187  cd ..
+  188  cd ~
+  189  pwd
+  190  ls -lrt
+  191  pwd
+  192  cd ~
+  193  pwd
+  194  cd  /
+  195  pwd
+  196  pwd
+  197  docker ps
+  198  docker ps -aal
+  199  docker ps --all
+  200  exit
+  201  docker run hello-world
+  202  docker ps -all
+  203  ls -l
+  204  cd /c/Work
+  205  cd dockerworkspace/redis_image/
+  206  docker build .
+  207  ls -lrt
+  208  cd /c/Program
+  209  pwd
+  210  docker ps
+  211  docker ps --all
+  212  cd ~
+  213  pwd
+  214  cd /
+  215  ls -lrt
+  216  cd /c/
+  217  ls -l
+  218  cd Program Files
+  219  cd 'Program Files'
+  220  ls -l
+  221  ls -lrt
+  222  cd 'Docker Toolbox'/
+  223  ls -lrt
+  224  cd installers/
+  225  ls -lrt
+  226  cd ..
+  227  exit
+  228  docker images
+  229  docker run 90b41eb3128a
+  230  docker ps
+  231  docker stop 90b41eb3128a
+  232  docker ps
+  233  docker stop 90b41eb3128a
+  234  docker kill 90b41eb3128a
+  235  docker kill 90b41eb3128a
+  236  docker kill  90b41eb3128a
+  237  docker ps --all
+  238  docker ps
+  239  docker stop 999d07e93608
+  240  docker ps
+  241  docker images
+  242  docker tag <none> arijitguru/alpine-redis:latest
+  243  docker tag 90b41eb3128a  arijitguru/alpine-redis:latest
+  244  docker images
+  245  cd /c/Work/dockerworkspace/
+  246  mkdir alpinenodejs
+  247  cd alpinenodejs/
+  248  code .
+  249  docker build .
+  250  ls
+  251  ls -l
+  252  docker build .
+  253  docker build .
+  254  docker build -t arijitguru/nodealpine .
+  255  docke ps
+  256  docker ps
+  257  docker imsgaes
+  258  docker images
+  259  docker rmi 21863ffe8cdf
+  260  docker images
+  261  docker run arijitguru/nodealpine
+  262  docker images
+  263  pwd
+  264  docker rmi 4c9b14bd275c
+  265  docker images
+  266  clear
+  267  docker imaages
+  268  cear
+  269  docker images
+  270  docker rmi 4c9b14bd275c
+  271  docker rm 96d0e696b385
+  272  docker rmi 4c9b14bd275c
+  273  docker images
+  274  pwd
+  275  ls
+  276  docker build -t arijitguru/nodealpine .
+  277  docker run arijitguru/nodealpine
+  278  docker run -p 8080:8080 arijitguru/nodealpine
+  279  docker run -p 5000:8080 arijitguru/nodealpine
+  280  clear
+  281  docker ps
+  282  docker stop 43cc78763aa1
+  283  docker stop d31069ef3f09
+  284  docker stop 24496c7d56a8
+  285  docker ps
+  286  docker run -p 5000:8080 arijitguru/nodealpine
+  287  dock
+  288  docker ps
+  289  docker stop fac9dad4471c
+  290  docker run -p 5000:8080 arijitguru/nodealpine
+  291  docker ps
+  292  docker stop 1bf8fabc2f71
+  293  ls -lrt
+  294  clear
+  295  docker run -p 8080:8080 arijitguru/nodealpine
+  296  docker ps
+  297  docker stop 927fabeb89dd
+  298  docker run -it arijitguru/nodealpine sh
+  299  docker build -t arijitguru/nodealpine .
+  300  docker images
+  301  docker rmi eaa769bdd04b
+  302  docker rm 43cc78763aa1
+  303  docker rmi eaa769bdd04b
+  304  docker rm 7e86e55952fd
+  305  docker ps
+  306  docker images
+  307  docker rmi eaa769bdd04b
+  308  docker rmi -f eaa769bdd04b
+  309  docker images
+  310  docker run -p 8080:8080 arijitguru/nodealpine
+  311  clear
+  312  docker images
+  313  docker ps
+  314  docker stop 96e117e54a5c
+  315  docker ps
+  316  pwd
+  317  docker build -t arijitguru/nodealpine .
+  318  ls -lrt
+  319  docker images
+  320  docker run -it arijitguru/nodealpine sh
+  321  docker ps
+  322  docker run -p 8080:8080 arijitguru/nodealpine
+  323  docker ps
+  324  docker stop 5340dc2ed2b0
+  325  docker run -d --net=host arijitguru/nodealpine
+  326  docker run -d -p 8080:8080 --net=host arijitguru/nodealpine
+  327  docker ps
+  328  docker stop 5340dc2ed2b0
+  329  docker ps
+  330  docker stop 14072a025df7
+  331  docker ps
+  332  docker ps --all
+  333  clear
+  334  history | grep run
+  335  docker run -p 8080:8080 arijitguru/nodealpine
+  336  docker ps
+  337  docker stop 90da144f6edd
+  338  docker ps
+  339  clear
+  340  docker build -t arijitguru/nodealpine .
+  341  docker images
+  342  docker rmi da3f2a176b7f
+  343  docker rmi -f da3f2a176b7f
+  344  docker rmi -f 3d933f700435
+  345  docker imahes
+  346  docker images
+  347  clear
+  348  docker images
+  349  docker run -p 8080:8080 arijitguru/nodealpine
+  350  docker ps
+  351  docker stop 9a0848bae538
+  352  exit
+  353  docker images
+  354  docker run -p 8080:8080 arijitguru/nodealpine
+  355  node
+  356  docker ps | grep node
+  357  docker stop 4fb2b3973d0c
+  358  exit
+  359  curl http://localhost:8080
+  360  docker ps
+  361  curl http://0.0.0.0:8080
+  362  curl localhost:8080
+  363  curl 192.168.99.100:8080
+  364  exit
+  365  docker images
+  366  docker run -p 8080:8080 arijitguru/nodealpine
+  367  docker ps
+  368  docker stop 91b1599d7e91
+  369  docker ps
+  370  cd /c/Work
+  371  cd dockerworkspace/
+  372  ls -l
+  373  cd alpinenodejs/
+  374  ls -l
+  375  code Dockerfile
+  376  ls -lrt
+  377  docker build -t arijitguru/alpinenodejs:v1.0 .
+  378  docker images
+  379  docker run -p 8080:8080 arijitguru/nodealpine:v1.0
+  380  docker run -p 8080:8080 arijitguru/nodealpinejs
+  381  docker run -p 8080:8080 arijitguru/alpinenodejs
+  382  docker run -p 8080:8080 arijitguru/alpinenodejs:v1.0
+  383  docker ps
+  384  docker stop 9bf3ee15a538
+  385  docker ps
